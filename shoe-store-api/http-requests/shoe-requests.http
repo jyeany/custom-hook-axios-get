@@ -1,0 +1,31 @@
+GET http://localhost:8080/api/products
+accept: application/json
+
+###
+
+POST http://localhost:8080/api/products
+accept: application/json
+content-type: application/json
+
+{
+    "id": 3,
+    "category": "shoes",
+    "image": "shoe3.jpg",
+    "name": "Explorer",
+    "price": 145.95,
+    "skus": [
+        {
+            "sku": "37",
+            "size": 7
+        },
+        {
+            "sku": "38",
+            "size": 8
+        },
+        {
+            "sku": "39",
+            "size": 9
+        }
+    ],
+    "description": "Look stylish while stomping in the mud."
+}

@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: 'localhost'
+      database: 'shoe'
+server:
+  servlet:
+    context-path: '/api'
