@@ -1,8 +1,8 @@
-# API for custom hoook axios
+# API for custom hook axios
 API with spring boot and mongo DB for custom-hook-axios-get-ui
 
 ## Running
-Start Mongo DB via compose:
+Start MongoDB via compose:
 ```
 cd shoe-store-compose
 docker compose up -d
